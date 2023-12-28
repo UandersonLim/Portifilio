@@ -158,8 +158,9 @@ export const List = styled.ul`
     justify-content: center;
     align-items: center;
 
-    /* li img{
-      width: 30px;
-    } */
+    @media(max-width: 980px){
+      justify-content: space-evenly;
+      width: 100%;
+    }
     
 `
