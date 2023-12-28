@@ -38,6 +38,15 @@ export const Box_text = styled.div`
       padding: 0 2rem;
     }
   }
+
+  @media(max-width: 768px){
+    font-size: 40%;
+
+    p{
+      font-size: 110%;
+      padding: 0 1rem;
+    }
+  }
 `;
 
 export const Route = styled.div`
