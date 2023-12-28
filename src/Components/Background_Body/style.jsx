@@ -118,6 +118,7 @@ export const Box_Header = styled.header`
     font-family: "Rubik Doodle Shadow", sans-serif;
     font-size: 32px;
     padding: 0 2rem;
+    flex-wrap: wrap;
 
     h1{
         font-size: 32px;
@@ -125,6 +126,19 @@ export const Box_Header = styled.header`
 
     li img{
         width: 25px;
+    }
+
+    @media(max-width: 980px){
+        justify-content: center;
+        font-size: 28px;
+
+      h1{
+        display: none;
+      }
+
+      li img{
+        width: 20px;
+      }
     }
     
 `

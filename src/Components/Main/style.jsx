@@ -12,7 +12,6 @@ export const Main = styled.main`
   gap: 1rem;
   font-size: 25px;
 
-  
 `;
 export const Box_text = styled.div`
   width: 50%;
@@ -20,6 +19,24 @@ export const Box_text = styled.div`
   p {
     font-family: "M PLUS Rounded 1c";
     font-size: 18px;
+  }
+
+  @media(max-width: 1200px){
+    font-size: 70%;
+
+    p{
+      font-size: 16px;
+    }
+  }
+
+  @media(max-width: 768px){
+    font-size: 60%;
+    width: 100%;
+
+    p{
+      font-size: 120%;
+      padding: 0 2rem;
+    }
   }
 `;
 
@@ -31,5 +48,14 @@ export const Route = styled.div`
 
     a:hover{
         border-bottom: 1px solid #fff;
+    }
+
+    @media(max-width: 1200px){
+      font-size: 1.5rem;
+    }
+
+    @media(max-width: 768px){
+      flex-direction: column;
+      gap: 2rem;
     }
 `
