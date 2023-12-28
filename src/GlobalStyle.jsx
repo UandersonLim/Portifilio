@@ -16,15 +16,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .light{
-    background-image: url('assets/Tarde.jpg');
+    background-image: url('assets/fundo-vermelho.jpg');
     background-size: cover;
-    color: #000000;
+    color: #fff;
     font-weight: 700;
   }
 
   @media(max-width: 1280px){
     .light{
-        color: #fff
+        color: #fff;
+        
     }
 
   }
