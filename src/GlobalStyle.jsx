@@ -11,12 +11,12 @@ export const GlobalStyle = createGlobalStyle`
    
 
    .Dark{
-    background-image: url('public/assets/Galaxia.jpg');
+    background-image: url('assets/Galaxia.jpg');
     color: #fff;
   }
 
   .light{
-    background-image: url('public/assets/Tarde.jpg');
+    background-image: url('assets/Tarde.jpg');
     background-size: cover;
     color: #000000;
     font-weight: 700;
