@@ -14,6 +14,11 @@ const MainContent = (props) => {
                 <a>{props.projetos}</a>
                 <a>{props.contato}</a>
             </Route>
+            <ul className="contatos">
+                <li><a><img src={props.linkedin}/></a></li>
+                <li><a><img src={props.github}/></a></li>
+                <li><a><img src={props.whatApp}/></a></li>
+            </ul>
         </Main>
     );
 };

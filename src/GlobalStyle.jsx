@@ -22,13 +22,5 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 700;
   }
 
-  @media(max-width: 1280px){
-    .light{
-        color: #fff;
-        
-    }
-
-  }
-
     
 `;

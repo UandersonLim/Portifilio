@@ -17,6 +17,7 @@ export const BackgroundDiv = styled.div`
   width: 100%;
   
 
+
   .square span{
     width: 50px;
     height: 50px;
@@ -108,6 +109,12 @@ export const BackgroundDiv = styled.div`
     opacity: 0;
   }
   }
+
+  .contatos{
+    display: flex;
+    gap: 5rem;
+    margin-top: 1rem;
+  }
 `;
 
 export const Box_Header = styled.header`
@@ -120,8 +127,8 @@ export const Box_Header = styled.header`
     padding: 0 2rem;
     flex-wrap: wrap;
 
-    h1{
-        font-size: 32px;
+    h1 img{
+        border-radius: 50px;
     }
 
     li img{
