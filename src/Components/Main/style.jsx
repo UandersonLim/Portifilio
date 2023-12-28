@@ -39,11 +39,11 @@ export const Box_text = styled.div`
     }
   }
 
-  @media(max-width: 768px){
-    font-size: 40%;
+  @media(max-width: 480px){
+    font-size: 50%;
 
     p{
-      font-size: 110%;
+      font-size: 130%;
       padding: 0 1rem;
     }
   }

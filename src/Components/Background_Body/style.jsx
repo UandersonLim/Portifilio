@@ -115,6 +115,7 @@ export const BackgroundDiv = styled.div`
     gap: 5rem;
     margin-top: 1rem;
   }
+  
 `;
 
 export const Box_Header = styled.header`
@@ -156,5 +157,9 @@ export const List = styled.ul`
     cursor: pointer;
     justify-content: center;
     align-items: center;
+
+    /* li img{
+      width: 30px;
+    } */
     
 `
