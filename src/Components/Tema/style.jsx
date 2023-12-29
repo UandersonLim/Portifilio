@@ -1,22 +1,10 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
-const gradient = keyframes`
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-`;
-
-export const BackgroundDiv = styled.div`
+export const TemaFundo = styled.div`
   height: 100vh;
   width: 100%;
-  
-
+  position: fixed;
+  z-index: -1;
 
   .square span{
     width: 50px;
@@ -110,57 +98,5 @@ export const BackgroundDiv = styled.div`
   }
   }
 
-  .contatos{
-    display: flex;
-    gap: 5rem;
-    margin-top: 1rem;
-  }
   
 `;
-
-export const Box_Header = styled.header`
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    align-items: center;
-    font-family: "Rubik Doodle Shadow", sans-serif;
-    font-size: 32px;
-    padding: 0 2rem;
-    flex-wrap: wrap;
-
-    h1 img{
-        border-radius: 50px;
-    }
-
-    li img{
-        width: 25px;
-    }
-
-    @media(max-width: 980px){
-        justify-content: center;
-        font-size: 28px;
-
-      h1{
-        display: none;
-      }
-
-      li img{
-        width: 20px;
-      }
-    }
-    
-`
-
-export const List = styled.ul`
-    display: flex;
-    gap: 1.5rem;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-
-    @media(max-width: 980px){
-      justify-content: space-evenly;
-      width: 100%;
-    }
-    
-`

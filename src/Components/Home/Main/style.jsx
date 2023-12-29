@@ -12,13 +12,20 @@ export const Main = styled.main`
   gap: 1rem;
   font-size: 25px;
 
+  .contatos{
+    display: flex;
+    gap: 5rem;
+    margin-top: 1rem;
+  }
+
 `;
 export const Box_text = styled.div`
   width: 50%;
-
+  color: #fff;
   p {
     font-family: "M PLUS Rounded 1c";
     font-size: 18px;
+    
   }
 
   @media(max-width: 1200px){
@@ -54,6 +61,10 @@ export const Route = styled.div`
     gap: 5rem;
     font-size: 2rem;
     cursor: pointer;
+    
+    a{
+      color: #fff;
+    }
 
     a:hover{
         border-bottom: 1px solid #fff;

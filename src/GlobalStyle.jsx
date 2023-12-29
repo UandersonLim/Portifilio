@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         list-style: none;
+        text-decoration: none;
     }
 
    
@@ -13,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
    .Dark{
     background-image: url('assets/Galaxia.jpg');
     color: #fff;
+    
   }
 
   .light{
