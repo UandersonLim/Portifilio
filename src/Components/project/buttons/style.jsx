@@ -14,6 +14,10 @@ export const Box_Button = styled.div`
     
     @media(max-width: 550px){
         flex-wrap: wrap;
+
+        a img{
+            display: none;
+        }
     }
     
     a{
