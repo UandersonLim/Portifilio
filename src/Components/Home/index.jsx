@@ -24,7 +24,9 @@ export const Header = (props) => {
             {trocarTema === "light" ? props.dark : props.light}
           </li>
           <li>
-            <img src={props.contato} />
+            <Link to="/Page_Email">
+              <img src={props.contato} />
+            </Link>
           </li>
         </List>
       </Box_Header>

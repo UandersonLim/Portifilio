@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Box_Header = styled.header`
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 70px;
     align-items: center;
     font-family: "Rubik Doodle Shadow", sans-serif;
     font-size: 32px;
