@@ -1,4 +1,3 @@
-import MainContent from "./Main/index.jsx";
 import { useState } from "react";
 import { Box_Header, List } from "./style";
 import { Theme } from "../../Services";

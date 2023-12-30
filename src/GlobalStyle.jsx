@@ -14,6 +14,8 @@ export const GlobalStyle = createGlobalStyle`
    .Dark{
     background-image: url('assets/Galaxia.jpg');
     color: #fff;
+    position: fixed;
+    font-weight: 700;
     
   }
 
@@ -22,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     background-size: cover;
     color: #fff;
     font-weight: 700;
+    position: fixed;
   }
 
     

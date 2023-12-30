@@ -3,5 +3,3 @@ export const Theme = (theme) => {
 };
 
 
-
-// console.log(temaEscolhido('Dark'))
