@@ -25,7 +25,7 @@ export const Card = styled.div`
   `;
 
 export const Box_imagem = styled.div`
-  background-image: url("../public/assets/Computer.png");
+  background-image: url("assets/Computer.png");
   background-size: cover;
   width: 60%;
   height: 60%;
