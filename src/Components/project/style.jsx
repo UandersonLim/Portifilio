@@ -1,15 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  color: #fff;
-  font-weight: 900;
-`;
+
 
 export const Card = styled.div`
   display: flex;
@@ -44,7 +35,7 @@ export const Figure = styled.figure`
     height: 100%;
   }
 
-  @media(max-width: 550px){
+  @media(max-width: 620px){
     width: 88%;
     top: 36px;
     left: 15px;
