@@ -22,10 +22,10 @@ export const Main = styled.main`
 export const Box_text = styled.div`
   width: 50%;
   color: #fff;
+
   p {
     font-family: "M PLUS Rounded 1c";
     font-size: 18px;
-    
   }
 
   @media(max-width: 1200px){

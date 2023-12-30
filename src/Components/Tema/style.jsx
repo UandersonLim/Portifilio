@@ -97,6 +97,5 @@ export const TemaFundo = styled.div`
     opacity: 0;
   }
   }
-
   
 `;

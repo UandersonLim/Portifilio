@@ -1,8 +1,6 @@
 import { Main, Box_text, Route } from "./style";
 import { Link } from "react-router-dom";
 
-
-
 const MainContent = (props) => {
     return(
         <Main>
@@ -13,7 +11,6 @@ const MainContent = (props) => {
             </Box_text>
             <Route>
                 <Link to="/projetos">{props.projetos}</Link>
-                {/* <a>{props.contato}</a> */}
             </Route>
             <ul className="contatos">
                 <li><a href="https://www.linkedin.com/in/uandersondev/" target="_blank"><img src={props.linkedin}/></a></li>

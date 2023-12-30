@@ -17,11 +17,6 @@ export const Card = styled.div`
   flex-direction: column;
   width: 550px;
   height: 550px;
-  
-  /* @media(max-width: 550px){
-    width: 100%;
-    height: 550px;
-  } */
   `;
 
 export const Box_imagem = styled.div`

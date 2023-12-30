@@ -20,7 +20,7 @@ export const Projetcs = () => {
         />
       <Main>
         {Dados.map((projeto) =>
-          projeto.linguagem === "React.JS" ? (
+          projeto.linguagem === "HTML-CSS-JS" ? (
             <Projetos
               key={projeto.id}
               nome={projeto.nome}
