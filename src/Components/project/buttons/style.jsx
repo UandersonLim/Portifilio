@@ -12,6 +12,11 @@ export const Box_Button = styled.div`
     font-size: 15px;
     font-weight: 600;
     
+    a:hover{
+        background-color: rgba(220,220,220, 0.5);
+        transition: all 0.3s;
+    }
+
     @media(max-width: 550px){
         flex-wrap: wrap;
 

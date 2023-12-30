@@ -6,6 +6,8 @@ import Html from "../../../../public/assets/icones-linguagens/html.png";
 import Css from "../../../../public/assets/icones-linguagens/css.png";
 import JS from "../../../../public/assets/icones-linguagens/JavaScript.png";
 import Node from "../../../../public/assets/icones-linguagens/node.png";
+import Voltar from "../../../../public/assets/icones-linguagens/Button.png";
+import { Button_Voltar } from "../../Botao_voltar";
 
 export const Buttons = () => {
   const [filtrar, setFiltrar] = useState("React.JS");
@@ -40,6 +42,9 @@ export const Buttons = () => {
             <img src={Node} />
           Node.JS
         </a>
+        <Button_Voltar
+          botao={Voltar}
+        />
       </Box_Button>
       <Main clickButton={filtrar} />
     </>

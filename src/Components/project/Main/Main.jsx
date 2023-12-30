@@ -2,6 +2,7 @@ import { BoxMain } from "./style";
 import { Projetos } from "..";
 import { Dados } from "../../../data";
 
+
 export const Main = (props) => {
   return (
     <BoxMain>

@@ -9,7 +9,7 @@ export const Header = (props) => {
   return (
     <>
     
-    <TrocaDeTema tema={trocarTema}/> 
+    <TrocaDeTema tema={trocarTema}/>
       <Box_Header>
         <h1>
           <img src={props.perfil} />
