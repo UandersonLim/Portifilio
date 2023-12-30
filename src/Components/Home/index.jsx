@@ -2,17 +2,19 @@ import { useState } from "react";
 import { Box_Header, List } from "./style";
 import { Theme } from "../../Services";
 import { TrocaDeTema } from "../Tema/index.jsx";
+import { Link } from "react-router-dom";
 
 export const Header = (props) => {
   const [trocarTema, setTrocarTema] = useState("light");
 
   return (
     <>
-    
-    <TrocaDeTema tema={trocarTema}/>
+      <TrocaDeTema tema={trocarTema} />
       <Box_Header>
         <h1>
-          <img src={props.perfil} />
+          <Link to="/">
+            <img src={props.perfil} />
+          </Link>
         </h1>
         <List>
           <li>
@@ -26,8 +28,6 @@ export const Header = (props) => {
           </li>
         </List>
       </Box_Header>
-
-    
     </>
   );
 };

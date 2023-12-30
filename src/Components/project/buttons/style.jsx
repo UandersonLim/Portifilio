@@ -40,6 +40,6 @@ export const Box_Button = styled.div`
 
     .background_Button{
         background-color: rgba(220,220,220, 0.5);
-
     }
+
 `

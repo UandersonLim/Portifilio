@@ -19,7 +19,6 @@ export const Projetcs = () => {
           button={<Button_Voltar/>}
         />
 
-        {/* <Main/> */}
         <Buttons/>
     </>
   );

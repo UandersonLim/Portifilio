@@ -1,16 +1,16 @@
-import Restaurante from "../../public/assets/restaurantes.gif";
-import JogoDaVelha from "../../public/assets/jogo-da-velha.gif";
-import Filme from "../../public/assets/filmes.gif";
-import Pokemons from "../../public/assets/pokedex.gif";
-import AgenciaDesign from "../../public/assets/agencia.gif";
-import Sorveteria from "../../public/assets/sorveteria.gif";
-import Otica from "../../public/assets/otica.gif";
-import Ecommerce from "../../public/assets/ecommerce.gif";
-import GitHub from "../../public/assets/api-github.gif";
-import GeradorDeConselhos from "../../public/assets/gerador-de-conselho.gif";
-import Formulario from "../../public/assets/formulario.gif";
-import XMEN from "../../public/assets/x-men.gif";
-import MiniFatosHistoricos from "../../public/assets/Animação.beckend.gif";
+import Restaurante from "../../public/assets/GIFS/restaurante.gif";
+import JogoDaVelha from "../../public/assets/GIFS/jogo-da-velha.gif";
+import Filme from "../../public/assets/GIFS/filmes.gif";
+import Pokemons from "../../public/assets/GIFS/pokedex.gif";
+import AgenciaDesign from "../../public/assets/GIFS/agencia.gif";
+import Sorveteria from "../../public/assets/GIFS/sorveteria.gif";
+import Otica from "../../public/assets/GIFS/otica.gif";
+import Ecommerce from "../../public/assets/GIFS/ecommerce.gif";
+import GitHub from "../../public/assets/GIFS/github.gif";
+import GeradorDeConselhos from "../../public/assets/GIFS/gerador-de-conselho.gif";
+import Formulario from "../../public/assets/GIFS/formulario.gif";
+import XMEN from "../../public/assets/GIFS/xmen.gif";
+import MiniFatosHistoricos from "../../public/assets/GIFS/Animação.beckend.gif";
 
 export const Dados = [
     {
