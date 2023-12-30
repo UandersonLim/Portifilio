@@ -13,7 +13,7 @@ export const Box_Button = styled.div`
     font-weight: 600;
     
     @media(max-width: 550px){
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     
     a{
