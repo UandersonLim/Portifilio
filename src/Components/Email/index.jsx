@@ -7,6 +7,8 @@ import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Botao_Home } from "../Botao_Home";
 import Button_Home from "../../../public/assets/icones-linguagens/home-button.png";
+import { Link } from "react-router-dom";
+
 
 export const Email = (props) => {
   return (
@@ -51,9 +53,10 @@ export const Email = (props) => {
             <input
               type="hidden"
               name="_next"
-              value="https://portifilio-ten.vercel.app/Page_Email"
+              value="https://portifilio-ten.vercel.app//Email_Enviado"
             />
             <button type="submit">Enviar</button>
+            <Link to="/Email_Enviado">rota</Link>
           </form>
         </Box_Email>
       </Main>

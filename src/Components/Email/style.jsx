@@ -16,6 +16,10 @@ export const Box_Email = styled.div`
   color: #fff;
   border-radius: 10px;
 
+  a{
+    color: #fff;
+  }
+
 
   form div {
     display: flex;
