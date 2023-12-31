@@ -82,9 +82,21 @@ export const Box_Email = styled.div`
 
   @media(max-width: 475px){
     width: 80%;
+    height: 64vh;
+
       h1{
         font-size: 20px;
+        margin-top: 10px;
       }
+
+      form button{
+        margin-top: 1rem;
+      }
+
+      form {
+        gap: 10px;
+      }
+      
   }
   
 `;

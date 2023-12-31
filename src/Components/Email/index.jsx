@@ -51,7 +51,7 @@ export const Email = (props) => {
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:5173/Email_Enviado"
+              value="https://portifilio-ten.vercel.app/Page_Email"
             />
             <button type="submit">Enviar</button>
           </form>
