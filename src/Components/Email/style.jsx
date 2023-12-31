@@ -133,9 +133,9 @@ export const Box_Email = styled.div`
       margin-top: 10px;
     }
 
-    form button {
-      margin-top: 1rem;
-    }
+    /* form button {
+      margin-top: 1;
+    } */
 
     form {
       gap: 10px;

@@ -7,10 +7,8 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-
     }
 
-   
 
    .Dark{
     background-image: url('assets/Galaxia.jpg');
