@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const Main = styled.main`
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 75vh;
   font-family: "Rubik Doodle Shadow", sans-serif;
-  `;
+  margin-top: 1rem;
+  /* background-color: #000; */
+`;
 
 export const Box_Email = styled.div`
   height: 550px;
@@ -16,10 +18,9 @@ export const Box_Email = styled.div`
   color: #fff;
   border-radius: 10px;
 
-  a{
+  a {
     color: #fff;
   }
-
 
   form div {
     display: flex;
@@ -31,7 +32,8 @@ export const Box_Email = styled.div`
 
   form input,
   form textarea,
-  form button, form label {
+  form button,
+  form label {
     border-radius: 10px;
     padding-left: 1rem;
     width: 80%;
@@ -48,6 +50,7 @@ export const Box_Email = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
+    gap: 10px;
 
     input:focus,
     textarea:focus {
@@ -78,29 +81,63 @@ export const Box_Email = styled.div`
     padding-bottom: 5px;
   }
   form button {
-    height: 8%;
     cursor: pointer;
     transition: 0.2s;
     margin-bottom: 1rem;
+    height: 40px;
+  }
+  
+  .animationButton{
+    position: relative;
+    border-top: 0.2em solid rgba(255, 255, 255, 0.2);
+    border-right: 0.2em solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0.2em solid rgba(255, 255, 255, 0.2);
+    border-left: 0.2em solid #ffffff;
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+    border: none;
+    text-align: center;
+    width: 20px;
+
   }
 
-  @media(max-width: 475px){
+  @-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+  @media (max-width: 475px) {
     width: 80%;
     height: 64vh;
 
-      h1{
-        font-size: 20px;
-        margin-top: 10px;
-      }
+    h1 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
 
-      form button{
-        margin-top: 1rem;
-      }
+    form button {
+      margin-top: 1rem;
+    }
 
-      form {
-        gap: 10px;
-      }
-      
+    form {
+      gap: 10px;
+    }
   }
-  
 `;

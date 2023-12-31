@@ -5,7 +5,7 @@ export const Botao_home = styled.div`
     width: 100%;
     height: 100px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 
     a:hover {
     background-color: rgba(220, 220, 220, 0.5);

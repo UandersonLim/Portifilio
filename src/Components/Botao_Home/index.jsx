@@ -6,7 +6,7 @@ export const Botao_Home = (props) => {
     <Botao_home>
       <Link to="/">
         <img src={props.home} />
-        Voltar
+        Home
       </Link>
     </Botao_home>
   );
