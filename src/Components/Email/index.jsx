@@ -2,14 +2,13 @@ import { Main, Box_Email } from "./style";
 import { Header } from "../Home";
 import Button_blue from "../../../public/assets/button_blank_blue.png";
 import button_green from "../../../public/assets/button_blank_green.png";
-import Ingles from "../../../public/assets/ingles.png";
+import Projects from "../../../public/assets/icones-linguagens/projects_dk.png";
 import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Botao_Home } from "../Botao_Home";
 import Button_Home from "../../../public/assets/icones-linguagens/home-button.png";
 import Imagem_Carregando from "../../../public/assets/icones-linguagens/refresh.png";
 import { useState } from "react";
-import { Validator } from "react";
 
 export const Email = (props) => {
   const [text, setText] = useState("Enviar");
@@ -27,7 +26,6 @@ export const Email = (props) => {
       }
   };
 
-  
 
   return (
     <>
@@ -35,7 +33,6 @@ export const Email = (props) => {
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
         contato={fale_comigo}
-        ingles={Ingles}
         perfil={Image_Perfil}
       />
       <Botao_Home home={Button_Home} />

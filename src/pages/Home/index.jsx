@@ -1,7 +1,7 @@
 import { Header } from "../../Components/Home";
 import Button_blue from "../../../public/assets/button_blank_blue.png";
 import button_green from "../../../public/assets/button_blank_green.png";
-import Ingles from "../../../public/assets/ingles.png";
+import Projects from "../../../public/assets/icones-linguagens/projects_dk.png";
 import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import GitHub from "../../../public/assets/github_roxo.png";
@@ -16,8 +16,10 @@ export const Home = () => {
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
         contato={fale_comigo}
-        ingles={Ingles}
+        projects={Projects}
         perfil={Image_Perfil}
+        text="Projetos"
+        rota="/projetos"
       />
 
       <MainContent

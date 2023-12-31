@@ -6,6 +6,7 @@ import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Buttons } from "../../Components/project/buttons";
 import { Button_Voltar } from "../../Components/Botao_voltar";
+import Projects from "../../../public/assets/icones-linguagens/home-button.png";
 
 export const Projetcs = () => {
   return (
@@ -17,6 +18,9 @@ export const Projetcs = () => {
           ingles={Ingles}
           perfil={Image_Perfil}
           button={<Button_Voltar/>}
+          projects={Projects}
+          text="Home"
+          rota="/"
         />
 
         <Buttons/>

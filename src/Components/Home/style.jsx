@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const Box_Header = styled.header`
+export const Box_Header = styled.ul`
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -11,19 +11,31 @@ export const Box_Header = styled.header`
     padding: 0 2rem;
     flex-wrap: wrap;
 
-    h1 img{
+    .imagem_perfil img{
         border-radius: 50px;
+    }
+
+    li a, .tema{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     li img{
         width: 25px;
     }
 
+    li figcaption{
+      font-size: 14px;
+      color: #fff;
+    }
+
     @media(max-width: 980px){
         justify-content: center;
         font-size: 28px;
 
-      h1{
+      .imagem_perfil{
         display: none;
       }
 

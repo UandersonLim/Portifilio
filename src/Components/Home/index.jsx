@@ -11,21 +11,27 @@ export const Header = (props) => {
     <>
       <TrocaDeTema tema={trocarTema} />
       <Box_Header>
-        <h1>
+        <li className="imagem_perfil">
           <Link to="/">
             <img src={props.perfil} />
           </Link>
-        </h1>
+        </li>
         <List>
           <li>
-            <img src={props.ingles} />
+            <Link to={props.rota}>
+            <img src={props.projects} />
+            <figcaption className="legendaicone">{props.text}</figcaption>
+            </Link>
           </li>
-          <li onClick={() => setTrocarTema(Theme(trocarTema))}>
+
+          <li  className="tema" onClick={() => setTrocarTema(Theme(trocarTema))}>
             {trocarTema === "light" ? props.dark : props.light}
+            <figcaption>Tema</figcaption>
           </li>
           <li>
             <Link to="/Page_Email">
               <img src={props.contato} />
+              <figcaption>Contato</figcaption>
             </Link>
           </li>
         </List>
