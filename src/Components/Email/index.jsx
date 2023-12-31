@@ -77,7 +77,7 @@ export const Email = (props) => {
               value="https://portifilio-ten.vercel.app//Email_Enviado"
             />
             <button onClick={botaoClicado} type="submit">
-              <p>{text}</p>
+              {text}
             </button>
           </form>
         </Box_Email>

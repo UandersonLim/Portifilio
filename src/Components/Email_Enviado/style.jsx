@@ -54,7 +54,7 @@ export const Main = styled.main`
 
   @media (max-width: 480px) {
     .menssagem {
-      height: 450px;
+      height: 420px;
       width: 350px;
     }
   }

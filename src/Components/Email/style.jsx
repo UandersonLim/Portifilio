@@ -84,7 +84,7 @@ export const Box_Email = styled.div`
     cursor: pointer;
     transition: 0.2s;
     margin-bottom: 1rem;
-    height: 40px;
+    height: 45px;
   }
   
   .animationButton{
@@ -126,6 +126,7 @@ export const Box_Email = styled.div`
   @media (max-width: 475px) {
     width: 80%;
     height: 64vh;
+    position: fixed;
 
     h1 {
       font-size: 20px;
