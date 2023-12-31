@@ -5,7 +5,7 @@ export const Main = styled.main`
   justify-content: center;
   height: 40vh;
   font-family: "Rubik Doodle Shadow", sans-serif;
-`;
+  `;
 
 export const Box_Email = styled.div`
   height: 550px;

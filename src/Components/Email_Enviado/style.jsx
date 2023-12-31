@@ -8,8 +8,9 @@ export const Main = styled.main`
   /* height: 80vh; */
   font-family: "Rubik Doodle Shadow", sans-serif;
   margin-top: 3rem;
-
+  
   .menssagem {
+    
     display: flex;
     height: 250px;
     width: 450px;
