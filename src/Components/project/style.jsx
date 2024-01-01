@@ -77,4 +77,12 @@ export const Description = styled.div`
     font-family: 'M PLUS Rounded 1c';
     font-size: 15px;
   }
+
+  @media(max-width: 430px){
+    h1{
+      font-size: 90%;
+      gap: 6px;
+      
+    }
+  }
 `;
