@@ -1,5 +1,5 @@
 import { GlobalStyle } from "./GlobalStyle";
-import { Rotas } from "./Rotas";
+import { Connection_Routes } from "./Routes";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <Rotas/>
+    <Connection_Routes/>
    
 
     </>

@@ -19,6 +19,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Projeto apresenta cardápios de um restaurante de pratos clássicos, como as categorias entradas, massas, carnes, bebidas, saladas e sobremesas.",
         imagem: Restaurante,
+        link: "https://projeto-restaurante-six.vercel.app/",
     },
     {
         id: 2,
@@ -26,6 +27,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Jogo da velha é um jogo popular que consiste em fazer uma sequência de três símbolos em uma grade de três por três.",
         imagem: JogoDaVelha,
+        link: "https://jogo-da-velha-react-sigma.vercel.app/",
     },
     {
         id: 3,
@@ -33,6 +35,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Projeto filme mostra os 20 filmes mais populares da atualidade. Foi adicionado um campo de busca para o usuário poder pesquisar um determinado filme. Ao clicar em cima do filme, o usuário é redirecionado para uma janela com sinopse e data que o filme foi lançado.",
         imagem: Filme,
+        link: "https://filmes-api-react-fawn.vercel.app/",
     },
     {
         id: 4,
@@ -40,6 +43,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Projeto criado com todos os atributos necessários de pokémons, habilidades, tipo e movimentos. A página principal contém um campo de pesquisa de qualquer pokémon o usuário pode navegar através do nome ou do id do pokémon. Também desenvolvi uma seção para que o usuário possa escolher o pokémon através dos tipos.",
         imagem: Pokemons,
+        link: "https://projeto-pokedex-com-react.vercel.app/",
     },
     {
         id: 5,
@@ -47,6 +51,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Projeto criado com intuito, de aprimorar minhas habilidades em código, como código limpo, utilização de componentes React.JS, props, camadas de aplicação de arquivos.",
         imagem: AgenciaDesign,
+        link: "https://agencia-design.vercel.app/",
     },
     {
         id: 6,
@@ -54,6 +59,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Esse projeto foi desenvolvido com intuito de treinar minhas habilidades em organização, clean code, uso correto de tags semânticas, o uso de rotas de responsividade.",
         imagem: Sorveteria,
+        link: "https://sorveteria-seven.vercel.app/",
     },
     {
         id: 7,
@@ -61,6 +67,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "Esse foi meu segundo projeto que desenvolvi com react, simples mais, preencheu lacunas que tinha sobre a ferramenta.",
         imagem: Otica,
+        link: "https://projeto-react-otica.vercel.app/",
     },
     {
         id: 8,
@@ -68,6 +75,7 @@ export const Dados = [
         linguagem: "HTML-CSS-JS",
         descricao: "Projeto desenvolvido para minha esposa, o intuito do projeto foi dá uma breve visualização do seu sonho de ter sua loja online de roupas sociais infantis. Minha ideia é migra essa aplicação para o React, pois foi desenvolvido no começo do meu estudo.",
         imagem: Ecommerce,
+        link: "https://uandersonlim.github.io/Loja-ecommerce/",
     },
     {
         id: 9,
@@ -75,6 +83,7 @@ export const Dados = [
         linguagem: "HTML-CSS-JS",
         descricao: "Projeto consumindo API do GitHub, à aplicação busca perfis conforme é digitado pelo usuário, e traz as informações de quanto seguidores tem, quantidade de pessoas que está seguindo, seus repositórios, e Eventos.",
         imagem: GitHub,
+        link: "https://uandersonlim.github.io/Projeto-Consumindo-API-do-GIT-HUB-HTML-CSS-JS/",
     },
     {
         id: 10,
@@ -82,6 +91,7 @@ export const Dados = [
         linguagem: "HTML-CSS-JS",
         descricao: "Projeto consumindo uma API de conselhos, á aplicação mostra conselhos a cada vez que o botão é clicado.",
         imagem: GeradorDeConselhos,
+        link: "https://uandersonlim.github.io/Projetct-Advice-Generator/",
     },
     {
         id: 11,
@@ -89,6 +99,7 @@ export const Dados = [
         linguagem: "HTML-CSS-JS",
         descricao: "Projeto desenvolvido, para treinar a validação de campos de entrada com JavaScript.",
         imagem: Formulario,
+        link: "https://uandersonlim.github.io/Quest-DevQues-HTML-CSS-JS/",
     },
     {
         id: 12,
@@ -96,6 +107,7 @@ export const Dados = [
         linguagem: "HTML-CSS-JS",
         descricao: "Esse foi um dos primeiros projetos que desenvolvi com, HTML, CSS, JS, basicamente o projeto mostra alguns personagens do x-men. Quando o usuário passa o mouse em cima do personagem, é mostrado uma breve descrição sobre o mesmo.",
         imagem: XMEN,
+        link: "https://uandersonlim.github.io/X-MEN/",
     },
     {
         id: 13,

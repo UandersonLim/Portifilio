@@ -5,11 +5,10 @@ export const Main = styled.main`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* height: 80vh; */
   font-family: "Rubik Doodle Shadow", sans-serif;
   margin-top: 3rem;
   
-  .menssagem {
+  .message {
     
     display: flex;
     height: 250px;
@@ -33,12 +32,12 @@ export const Main = styled.main`
     font-weight: 900;
   }
 
-  .box_botoes {
+  .box_button {
     display: flex;
     gap: 3rem;
   }
 
-  .botoes {
+  .button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,8 +51,9 @@ export const Main = styled.main`
     background-color: rgba(255, 255, 255, 0.2);
   }
 
+  /* RESPONSIVE */
   @media (max-width: 480px) {
-    .menssagem {
+    .message {
       height: 420px;
       width: 350px;
     }

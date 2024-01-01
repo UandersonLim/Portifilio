@@ -17,6 +17,7 @@ export const Box_imagem = styled.div`
   height: 60%;
   position: relative;
 
+  /*RESPONSIVE  */
   @media(max-width: 620px){
     width: 250px;
     height: 250px;
@@ -43,12 +44,31 @@ export const Figure = styled.figure`
 `;
 
 export const Description = styled.div`
+  display: flex;
+  flex-direction: column;
   font-family: 'Rubik Doodle Shadow', Courier, monospace;
   width: 70%;
+  justify-content: center;
+  align-items: center;
   
   h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 20px;
+    color: #fff;
+    gap: 8px;
+    padding: 8px 13px;
+  }
+
+  h1 img{
+    width: 25px;
+  }
+
+  h1:hover{
+    border-radius: 10px;
+    background-color: rgba(220, 220, 220, 0.5);
   }
 
   p {

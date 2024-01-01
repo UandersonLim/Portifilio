@@ -12,7 +12,7 @@ export const Main = styled.main`
   gap: 1rem;
   font-size: 25px;
 
-  .contatos{
+  .contact{
     display: flex;
     gap: 5rem;
     margin-top: 1rem;
@@ -24,10 +24,11 @@ export const Box_text = styled.div`
   color: #fff;
 
   p {
-    font-family: "M PLUS Rounded 1c";
+    font-family: "M PLUS Rounded 1c", sans-serif;
     font-size: 18px;
   }
 
+  /* RESPONSIVE */
   @media(max-width: 1200px){
     font-size: 70%;
 
@@ -70,6 +71,7 @@ export const Route = styled.div`
         border-bottom: 1px solid #fff;
     }
 
+    /* RESPONSIVE */
     @media(max-width: 1200px){
       font-size: 1.5rem;
     }

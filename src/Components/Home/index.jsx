@@ -1,31 +1,34 @@
 import { useState } from "react";
 import { Box_Header, List } from "./style";
 import { Theme } from "../../Services";
-import { TrocaDeTema } from "../Tema/index.jsx";
+import { ChangeTheme } from "../Theme/index.jsx";
 import { Link } from "react-router-dom";
 
 export const Header = (props) => {
-  const [trocarTema, setTrocarTema] = useState("light");
+  const [changeTheme, setChangeTheme] = useState("light");
 
   return (
     <>
-      <TrocaDeTema tema={trocarTema} />
+      <ChangeTheme theme={changeTheme} />
       <Box_Header>
-        <li className="imagem_perfil">
+        <li className="Profile_image">
           <Link to="/">
-            <img src={props.perfil} />
+            <img src={props.profile} />
           </Link>
         </li>
         <List>
           <li>
-            <Link to={props.rota}>
-            <img src={props.img} />
-            <figcaption className="legendaicone">{props.text}</figcaption>
+            <Link to={props.route}>
+              <img src={props.img} />
+              <figcaption>{props.text}</figcaption>
             </Link>
           </li>
 
-          <li  className="tema" onClick={() => setTrocarTema(Theme(trocarTema))}>
-            {trocarTema === "light" ? props.dark : props.light}
+          <li
+            className="theme"
+            onClick={() => setChangeTheme(Theme(changeTheme))}
+          >
+            {changeTheme === "light" ? props.dark : props.light}
             <figcaption>Tema</figcaption>
           </li>
           <li>

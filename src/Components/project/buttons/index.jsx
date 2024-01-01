@@ -6,27 +6,27 @@ import Html from "../../../../public/assets/icones-linguagens/html.png";
 import Css from "../../../../public/assets/icones-linguagens/css.png";
 import JS from "../../../../public/assets/icones-linguagens/JavaScript.png";
 import Node from "../../../../public/assets/icones-linguagens/node.png";
-import Voltar from "../../../../public/assets/icones-linguagens/Button.png";
-import { Button_Voltar } from "../../Botao_voltar";
+import Button_Go_Back from "../../../../public/assets/icones-linguagens/Button.png";
+import { Button_Voltar } from "../../Button_Back";
 
 export const Buttons = () => {
-  const [filtrar, setFiltrar] = useState("React.JS");
-  console.log(filtrar);
+  const [filter, setFilter] = useState("React.JS");
 
   return (
     <>
       <Box_Button>
-        <a id="htmlCssJs"
-          onClick={() => setFiltrar("React.JS")}
-          className={filtrar === "React.JS" ? "background_Button" : null}
+        <a
+          id="htmlCssJs"
+          onClick={() => setFilter("React.JS")}
+          className={filter === "React.JS" ? "background_Button" : null}
         >
-            <img src={React} />
+          <img src={React} />
           React.JS
         </a>
         <a
           id="htmlCssJs"
-          onClick={() => setFiltrar("HTML-CSS-JS")}
-          className={filtrar === "HTML-CSS-JS" ? "background_Button" : null}
+          onClick={() => setFilter("HTML-CSS-JS")}
+          className={filter === "HTML-CSS-JS" ? "background_Button" : null}
         >
           <figure>
             <img src={Html} />
@@ -35,18 +35,17 @@ export const Buttons = () => {
           </figure>
           HTML-CSS-JS
         </a>
-        <a id="htmlCssJs"
-          onClick={() => setFiltrar("Node.JS")}
-          className={filtrar === "Node.JS" ? "background_Button" : null}
+        <a
+          id="htmlCssJs"
+          onClick={() => setFilter("Node.JS")}
+          className={filter === "Node.JS" ? "background_Button" : null}
         >
-            <img src={Node} />
+          <img src={Node} />
           Node.JS
         </a>
-        <Button_Voltar
-          botao={Voltar}
-        />
+        <Button_Voltar go_back={Button_Go_Back} />
       </Box_Button>
-      <Main clickButton={filtrar} />
+      <Main clickButton={filter} />
     </>
   );
 };

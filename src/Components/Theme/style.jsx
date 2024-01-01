@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TemaFundo = styled.div`
+export const ThemeBackground = styled.div`
   height: 100vh;
   width: 100%;
   position: fixed;

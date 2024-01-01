@@ -5,7 +5,6 @@ import Home from "../../../public/assets/icones-linguagens/home-button.png";
 import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Buttons } from "../../Components/project/buttons";
-import { Button_Voltar } from "../../Components/Botao_voltar";
 
 export const Projetcs = () => {
   return (
@@ -14,10 +13,9 @@ export const Projetcs = () => {
           dark={<img src={Button_blue} />}
           light={<img src={button_green} />}
           img={Home}
-          perfil={Image_Perfil}
-          // button={<Button_Voltar/>}
+          profile={Image_Perfil}
           text="Home"
-          rota="/"
+          route="/"
           imgButtonEnd={fale_comigo}
           textButtonEnd="Contato"
           routeButtonEnd="/Page_Email"

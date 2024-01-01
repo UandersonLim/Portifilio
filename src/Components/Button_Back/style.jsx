@@ -16,4 +16,3 @@ export const Box_Voltar = styled.div`
     color: #fff;
   }
 `;
-

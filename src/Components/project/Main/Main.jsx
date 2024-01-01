@@ -10,10 +10,11 @@ export const Main = (props) => {
         projeto.linguagem === props.clickButton ? (
           <Projetos
             key={projeto.id}
-            nome={projeto.nome}
-            linguagem={projeto.linguagem}
-            descricao={projeto.descricao}
-            imagem={projeto.imagem}
+            name={projeto.nome}
+            language={projeto.linguagem}
+            description={projeto.descricao}
+            image={projeto.imagem}
+            link={projeto.link}
           />
         ) : null
       )}

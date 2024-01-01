@@ -3,48 +3,34 @@ import { Header } from "../Home";
 import Button_blue from "../../../public/assets/button_blank_blue.png";
 import button_green from "../../../public/assets/button_blank_green.png";
 import Home from "../../../public/assets/icones-linguagens/home-button.png";
-import fale_comigo from "../../../public/assets/fale_comigo.png";
-import Image_Perfil from "../../../public/assets/perfil.ico";
-import { Botao_Home } from "../Botao_Home";
-import Button_Home from "../../../public/assets/icones-linguagens/home-button.png";
-import Imagem_Carregando from "../../../public/assets/icones-linguagens/refresh.png";
-import Projects from "../../../public/assets/icones-linguagens/projects_dk.png"
+import Image_Profile from "../../../public/assets/perfil.ico";
+import Projects from "../../../public/assets/icones-linguagens/projects_dk.png";
 import { useState } from "react";
-import MainContent from "../Home/Main";
-
+import { filterRespondeSendButton } from "../../Services";
 
 export const Email = (props) => {
   const [text, setText] = useState("Enviar");
   const [input, setInput] = useState("");
-  const [inputtwo, setInputtwo] = useState("");
-  const [inputthree, setInputthree] = useState("");
-  
-  const Image = <img className="animationButton" src={Imagem_Carregando} />
+  const [inputTwo, setInputTwo] = useState("");
+  const [inputThree, setInputThree] = useState("");
 
-  const botaoClicado = () => {
-      if(input !== "" && inputtwo !== "" && inputthree !== ""){
-        setText(Image)
-      }else{
-        setText("Enviar")
-      }
+  const buttonClick = () => {
+    setText(filterRespondeSendButton(input, inputTwo, inputThree));
   };
-
 
   return (
     <>
       <Header
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
-        imgButtonEnd={Projects}
-        perfil={Image_Perfil}
-        rota="/"
+        profile={Image_Profile}
+        route="/"
         text="Home"
         img={Home}
+        imgButtonEnd={Projects}
         textButtonEnd="Projetos"
-        routeButtonEnd="/projetos"
-
+        routeButtonEnd="/projects"
       />
-      {/* <Botao_Home home={Button_Home} /> */}
       <Main>
         <Box_Email>
           <form
@@ -54,7 +40,6 @@ export const Email = (props) => {
             <h1>{props.titulo}</h1>
             <div>
               <label>{props.nome}</label>
-
               <input
                 onChange={(event) => setInput(event.target.value)}
                 type="text"
@@ -64,13 +49,18 @@ export const Email = (props) => {
             </div>
             <div>
               <label>{props.email}</label>
-
-              <input onChange={(event) => setInputtwo(event.target.value)} value={inputtwo}  type="email" name="email" required />
+              <input
+                onChange={(event) => setInputTwo(event.target.value)}
+                value={inputTwo}
+                type="email"
+                name="email"
+                required
+              />
             </div>
             <div className="Box_textArea">
               <label>{props.menssagem}</label>
-
-              <textarea onChange={(event) => setInputthree(event.target.value)}
+              <textarea
+                onChange={(event) => setInputThree(event.target.value)}
                 name="message"
                 placeholder="Escreva aqui"
                 required
@@ -82,7 +72,7 @@ export const Email = (props) => {
               name="_next"
               value="https://portifilio-ten.vercel.app//Email_Enviado"
             />
-            <button onClick={botaoClicado} type="submit">
+            <button onClick={buttonClick} type="submit">
               {text}
             </button>
           </form>
