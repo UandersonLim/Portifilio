@@ -15,16 +15,18 @@ export const Home = () => {
       <Header
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
-        contato={fale_comigo}
         img={Projects}
         perfil={Image_Perfil}
         text="Projetos"
         rota="/projetos"
+        imgButtonEnd={fale_comigo}
+        textButtonEnd="Contato"
+        routeButtonEnd="/Page_Email"
       />
 
       <MainContent
-        apresentacao="Olá, Eu sou Uanderson Lima"
-        sobre="Sou um desenvolvedor frontend e atualmente estudando para ser desenvolvedor fullstack! Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades. Estou sempre buscando novos desafios em projetos de desenvolvimento e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁 Ah, gosto de jogos, filmes, séries, animes e outras nerdices."
+        apresentacao="Olá, Eu sou Uanderson Lima."
+        sobre="Sou desenvolvedor frontend, e atualmente estudando JavaScript no backend. Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades. Estou sempre buscando novos desafios em projetos de desenvolvimento e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁 Ah, gosto de jogos, filmes, séries, animes e outras nerdices."
         projetos="Veja meus projetos"
         contato="Contatos"
         whatApp={WhatsApp}

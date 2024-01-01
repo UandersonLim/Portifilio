@@ -8,7 +8,10 @@ import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Botao_Home } from "../Botao_Home";
 import Button_Home from "../../../public/assets/icones-linguagens/home-button.png";
 import Imagem_Carregando from "../../../public/assets/icones-linguagens/refresh.png";
+import Projects from "../../../public/assets/icones-linguagens/projects_dk.png"
 import { useState } from "react";
+import MainContent from "../Home/Main";
+
 
 export const Email = (props) => {
   const [text, setText] = useState("Enviar");
@@ -32,11 +35,13 @@ export const Email = (props) => {
       <Header
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
-        contato={fale_comigo}
+        imgButtonEnd={Projects}
         perfil={Image_Perfil}
         rota="/"
         text="Home"
         img={Home}
+        textButtonEnd="Projetos"
+        routeButtonEnd="/projetos"
 
       />
       {/* <Botao_Home home={Button_Home} /> */}

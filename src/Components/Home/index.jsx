@@ -29,9 +29,9 @@ export const Header = (props) => {
             <figcaption>Tema</figcaption>
           </li>
           <li>
-            <Link to="/Page_Email">
-              <img src={props.contato} />
-              <figcaption>Contato</figcaption>
+            <Link to={props.routeButtonEnd}>
+              <img src={props.imgButtonEnd} />
+              <figcaption>{props.textButtonEnd}</figcaption>
             </Link>
           </li>
         </List>
