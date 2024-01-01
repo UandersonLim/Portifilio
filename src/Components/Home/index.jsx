@@ -4,12 +4,15 @@ import { Theme } from "../../Services";
 import { ChangeTheme } from "../Theme/index.jsx";
 import { Link } from "react-router-dom";
 
+
+
 export const Header = (props) => {
   const [changeTheme, setChangeTheme] = useState("light");
-
+ 
   return (
     <>
-      <ChangeTheme theme={changeTheme} />
+      <ChangeTheme theme={changeTheme}/>
+      
       <Box_Header>
         <li className="Profile_image">
           <Link to="/">

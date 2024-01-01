@@ -6,7 +6,7 @@ export const Page_Email = () => {
         titulo="Me envie um E-mail"
         nome="nome"
         email="E-mail"
-        menssagem="Menssagem"
+        mensagem="Mensagem"
         />
     );
 };

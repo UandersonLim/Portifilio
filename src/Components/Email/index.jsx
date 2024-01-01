@@ -58,7 +58,7 @@ export const Email = (props) => {
               />
             </div>
             <div className="Box_textArea">
-              <label>{props.menssagem}</label>
+              <label>{props.mensagem}</label>
               <textarea
                 onChange={(event) => setInputThree(event.target.value)}
                 name="message"

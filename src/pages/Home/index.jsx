@@ -22,8 +22,8 @@ export const Home = () => {
         imgButtonEnd={fale_comigo}
         textButtonEnd="Contato"
         routeButtonEnd="/Page_Email"
+        
       />
-
       <MainContent
         presentation="Olá, Eu sou Uanderson Lima."
         about="Sou desenvolvedor frontend, e atualmente estudando JavaScript no backend. Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades. Estou sempre buscando novos desafios em projetos de desenvolvimento e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁 Ah, gosto de jogos, filmes, séries, animes e outras nerdices."

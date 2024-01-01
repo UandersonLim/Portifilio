@@ -6,6 +6,7 @@ export const ThemeBackground = styled.div`
   position: fixed;
   z-index: -1;
 
+
   .square span{
     width: 50px;
     height: 50px;
