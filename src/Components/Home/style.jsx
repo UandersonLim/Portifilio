@@ -37,7 +37,7 @@ export const Box_Header = styled.ul`
     justify-content: center;
     font-size: 28px;
 
-    .imagem_perfil {
+    .Profile_image {
       display: none;
     }
 
