@@ -16,7 +16,7 @@ export const Home = () => {
         dark={<img src={Button_blue} />}
         light={<img src={button_green} />}
         contato={fale_comigo}
-        projects={Projects}
+        img={Projects}
         perfil={Image_Perfil}
         text="Projetos"
         rota="/projetos"

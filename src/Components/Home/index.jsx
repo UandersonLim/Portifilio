@@ -19,7 +19,7 @@ export const Header = (props) => {
         <List>
           <li>
             <Link to={props.rota}>
-            <img src={props.projects} />
+            <img src={props.img} />
             <figcaption className="legendaicone">{props.text}</figcaption>
             </Link>
           </li>

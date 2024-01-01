@@ -18,7 +18,7 @@ export const Projetcs = () => {
           ingles={Ingles}
           perfil={Image_Perfil}
           button={<Button_Voltar/>}
-          projects={Projects}
+          img={Projects}
           text="Home"
           rota="/"
         />

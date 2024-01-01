@@ -2,7 +2,7 @@ import { Main, Box_Email } from "./style";
 import { Header } from "../Home";
 import Button_blue from "../../../public/assets/button_blank_blue.png";
 import button_green from "../../../public/assets/button_blank_green.png";
-import Projects from "../../../public/assets/icones-linguagens/projects_dk.png";
+import Home from "../../../public/assets/icones-linguagens/home-button.png";
 import fale_comigo from "../../../public/assets/fale_comigo.png";
 import Image_Perfil from "../../../public/assets/perfil.ico";
 import { Botao_Home } from "../Botao_Home";
@@ -34,8 +34,12 @@ export const Email = (props) => {
         light={<img src={button_green} />}
         contato={fale_comigo}
         perfil={Image_Perfil}
+        rota="/"
+        text="Home"
+        img={Home}
+
       />
-      <Botao_Home home={Button_Home} />
+      {/* <Botao_Home home={Button_Home} /> */}
       <Main>
         <Box_Email>
           <form
