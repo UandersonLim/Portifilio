@@ -14,6 +14,10 @@ export const Box_Header = styled.ul`
     border-radius: 50px;
   }
 
+  li{
+    margin-top: 10px;
+  }
+
   li a,
   .theme {
     display: flex;
@@ -23,7 +27,7 @@ export const Box_Header = styled.ul`
   }
 
   li img {
-    width: 25px;
+    width: 32px;
   }
 
   li figcaption {
