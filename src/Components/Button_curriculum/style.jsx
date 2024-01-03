@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const Box_Button = styled.div`
-  position: absolute;
+  position: fixed;
   top: 150px;
   left: 25px;
   z-index: 1;
