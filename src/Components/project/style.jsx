@@ -69,6 +69,7 @@ export const Description = styled.div`
   h1:hover{
     border-radius: 10px;
     background-color: rgba(220, 220, 220, 0.5);
+    transition: all 0.5s;
   }
 
   p {
