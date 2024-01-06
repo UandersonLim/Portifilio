@@ -1,7 +1,7 @@
 import Restaurante from "../../public/assets/GIFS/restaurante.gif";
 import JogoDaVelha from "../../public/assets/GIFS/jogo-da-velha.gif";
 import Filme from "../../public/assets/GIFS/filmes.gif";
-import Pokemons from "../../public/assets/GIFS/pokedex.gif";
+import Pokemons from "../../public/assets/GIFS/pokedex-axios.gif";
 import AgenciaDesign from "../../public/assets/GIFS/agencia.gif";
 import Sorveteria from "../../public/assets/GIFS/sorveteria.gif";
 import Otica from "../../public/assets/GIFS/otica.gif";
@@ -41,7 +41,7 @@ export const Dados = [
         id: 4,
         nome: "Pokédex",
         linguagem: "React.JS",
-        descricao: "Projeto criado com todos os atributos necessários de pokémons, habilidades, tipo e movimentos. A página principal contém um campo de pesquisa de qualquer pokémon o usuário pode navegar através do nome ou do id do pokémon. Também desenvolvi uma seção para que o usuário possa escolher o pokémon através dos tipos.",
+        descricao: "A página principal contém um botão para que o usuário escolher os Pokémons pelo tipo. Também tem um botão Dark Mode para que o usuário possa alterna entre tema claro e escuro. Mais abaixo tem botão que o usuário poderá adicionar mais 10 Pokémons a cada clique.",
         imagem: Pokemons,
         link: "https://projeto-pokedex-com-react.vercel.app/",
     },
