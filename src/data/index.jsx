@@ -43,7 +43,7 @@ export const Dados = [
         linguagem: "React.JS",
         descricao: "A página principal contém um botão para que o usuário escolher os Pokémons pelo tipo. Também tem um botão Dark Mode para que o usuário possa alterna entre tema claro e escuro. Mais abaixo tem botão que o usuário poderá adicionar mais 10 Pokémons a cada clique.",
         imagem: Pokemons,
-        link: "https://projeto-pokedex-com-react.vercel.app/",
+        link: "https://pokedex-com-axios.vercel.app/",
     },
     {
         id: 5,
